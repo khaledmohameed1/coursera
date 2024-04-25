@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/output.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- start navber  -->
+  <nav class="bg-white  fixed w-full z-20 top-0 start-0 border-b border-gray-200 ">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+      <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <img src="image/logo.png" class="h-8" alt="Advanced Language Center">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap ">ALC</span>
+      </a>
+      <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+        <button type="button"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center ">View
+          dashboard</button>
+        <button data-collapse-toggle="navbar-sticky" type="button" id="hamburger"
+          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 "
+          aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M1 1h15M1 7h15M1 13h15" />
+          </svg>
+        </button>
+      </div>
+      <div class="items-center toggle justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul
+          class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white ">
+          <li>
+            <a href="index.html"
+              class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-gray-900 md:p-0 "
+              aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="about.html"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">About</a>
+          </li>
+          <li>
+            <a href="courses.html"
+              class="block py-2 px-3  rounded hover:bg-gray-100 md:hover:bg-transparent md:text-blue-700 md:hover:text-blue-700 md:p-0 ">Courses</a>
+          </li>
+          <li>
+            <a href="teacher.html"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">Teacher</a>
+          </li>
+          <li>
+            <a href="contact.html"
+              class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end navber -->
+
+  <!-- start bg-cover -->
+  <section style="background-image: url('image/bg-cover.png')"
+    class="bg-center h-[80vh] bg-no-repeat bg-gray-700 bg-blend-multiply">
+    <div
+      class="relative top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 m-0  max-w-screen-xl text-center py-24 lg:py-56">
+      <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Course
+      </h1>
+      <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Nunc odio in et, lectus sit lorem id integer.
+      </p>
+
+    </div>
+  </section>
+  <!-- end bg-cover -->
+  <!-- start card -->
+  <section class=" mb-9">
+    <!-- box -->
+    <div
+      class="px-5 grid justify-center gap-4 sm:grid-cols-2 md:max-w-[64rem] md:grid-cols-3 lg:max-w-[80rem] lg:grid-cols-3  mt-8  container mx-auto">
+      <div class="  overflow-hidden bg-white rounded-lg shadow-md">
+        <div class="relative">
+          <img class="w-full h-64 object-cover" src="image/one.png" alt="Image">
+          <div class="absolute top-0 right-0">
+            <div class="w-32 h-8 absolute top-4 -right-8">
+              <div class="h-full w-full bg-red-600 text-white text-center leading-8 font-semibold transform rotate-45">
+                SALE</div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+
+          <div class="p-4 absolute right-0 top-[-34px] bg-white mr-3 rounded-lg	 shadow-inner	drop-shadow-lg">
+            <h3 class="text-xl font-semibold mb-2 text-[#f00] line-through decoration-[#f00]">$350</h3>
+          </div>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">Product Sale</h3>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum
+              auctor felis, vel consequat odio ullamcorper eu.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button class=" bg-blue-500 mb-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <a href="pageCoure.html">Buy now</a>
+          </button>
+        </div>
+      </div>
+
+      <div class="  overflow-hidden bg-white rounded-lg shadow-md">
+        <div class="relative">
+          <img class="w-full h-64 object-cover" src="image/twoo.png" alt="Image">
+          <div class="absolute top-0 right-0">
+            <div class="w-32 h-8 absolute top-4 -right-8">
+              <div class="h-full w-full bg-red-600 text-white text-center leading-8 font-semibold transform rotate-45">
+                SALE</div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+
+          <div class="p-4 absolute right-0 top-[-34px] bg-white mr-3 rounded-lg	 shadow-inner	drop-shadow-lg">
+            <h3 class="text-xl font-semibold mb-2 text-[#f00] line-through decoration-[#f00]">$350</h3>
+          </div>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">Product Sale</h3>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum
+              auctor felis, vel consequat odio ullamcorper eu.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button class=" bg-blue-500 mb-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Buy now
+          </button>
+        </div>
+      </div>
+      <div class="  overflow-hidden bg-white rounded-lg shadow-md">
+        <div class="relative">
+          <img class="w-full h-64 object-cover" src="image/threee.png" alt="Image">
+          <div class="absolute top-0 right-0">
+            <div class="w-32 h-8 absolute top-4 -right-8">
+              <div class="h-full w-full bg-red-600 text-white text-center leading-8 font-semibold transform rotate-45">
+                SALE</div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+
+          <div class="p-4 absolute right-0 top-[-34px] bg-white mr-3 rounded-lg	 shadow-inner	drop-shadow-lg">
+            <h3 class="text-xl font-semibold mb-2 text-[#f00] line-through decoration-[#f00]">$350</h3>
+          </div>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">Product Sale</h3>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum
+              auctor felis, vel consequat odio ullamcorper eu.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button class=" bg-blue-500 mb-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Buy now
+          </button>
+        </div>
+      </div>
+
+      <div class="  overflow-hidden bg-white rounded-lg shadow-md">
+        <div class="relative">
+          <img class="w-full h-64 object-cover" src="image/fourr.png" alt="Image">
+          <div class="absolute top-0 right-0">
+            <div class="w-32 h-8 absolute top-4 -right-8">
+              <div class="h-full w-full bg-red-600 text-white text-center leading-8 font-semibold transform rotate-45">
+                SALE</div>
+            </div>
+          </div>
+        </div>
+        <div class="relative">
+
+          <div class="p-4 absolute right-0 top-[-34px] bg-white mr-3 rounded-lg	 shadow-inner	drop-shadow-lg">
+            <h3 class="text-xl font-semibold mb-2 text-[#f00] line-through decoration-[#f00]">$350</h3>
+          </div>
+          <div class="p-4">
+            <h3 class="text-xl font-semibold mb-2">Product Sale</h3>
+            <p class="text-gray-700 text-base">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam bibendum
+              auctor felis, vel consequat odio ullamcorper eu.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <button class=" bg-blue-500 mb-5 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Buy now
+          </button>
+        </div>
+      </div>
+
+
+    </div>
+    <!-- box -->
+  </section>
+  <!-- end card -->
+
+  <!-- start footer -->
+  <footer class="p-4 bg-[#F8F9FA] md:p-8 lg:p-10 ">
+    <div class="mx-auto max-w-screen-xl text-center">
+      <a href="#" class=" flex justify-center items-center  ">
+        <img src="image/logo.png" class="h-8" alt="Advanced Language Center">
+        <span class="self-center text-2xl font-semibold whitespace-nowrap ">ALC</span>
+      </a>
+      <p class="max-w-[85%] md:max-w-[60%] m-auto leading-normal text-muted-foreground sm:text-lg sm:leading-7">
+        The product can personalize user experiences by understanding individual preferences and tailoring
+        recommendations or content based on user behavior and historical data.
+      </p>
+      <ul class="flex justify-center items-center gap-4 p-4 md:p-0 mt-4 mb-5 font-medium">
+        <li>
+          <a href="#" class="block py-2 px-3  hover:text-blue-700 md:p-0 " aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3  hover:text-blue-700 md:p-0 " aria-current="page">About</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3  hover:text-blue-700 md:p-0 " aria-current="page">Services</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3  hover:text-blue-700 md:p-0 " aria-current="page">Content US</a>
+        </li>
+      </ul>
+
+      <span class="text-sm text-gray-500 sm:text-center mt-5 ">© 2021-2022 <a href="#" class="hover:underline">ALC</a>.
+        All
+        Rights Reserved.</span>
+    </div>
+  </footer>
+  <!-- end footer -->
+  <script>
+    document.getElementById("hamburger").onclick = function toggleMenu() {
+      console.log("dfs")
+      const navToggle = document.getElementsByClassName("toggle");
+      for (let i = 0; i < navToggle.length; i++) {
+        navToggle.item(i).classList.toggle("hidden");
+      }
+    };
+  </script>
+</body>
+
+</html>
